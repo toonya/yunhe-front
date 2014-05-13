@@ -305,3 +305,49 @@ section.other-service-plan ul.nav-pills {
   left: 25%;
   top: 8px;
 }
+section.team h1 {
+  font-family: "Microsoft YaHei Bold", "Microsoft YaHei", Arial, helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+section.team h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+  margin: 0 0 18px;
+}
+section.team-member .nav {
+  text-align: center;
+}
+section.team-member .nav li {
+  display: inline-block;
+}
+section.team-member .nav li a {
+  padding: 0;
+  margin: 8px;
+}
+section.team-member .nav li.active a,
+section.team-member .nav li.active a:hover {
+  -webkit-box-shadow: 0 0 5px 1px #0063BE;
+  box-shadow: 0 0 5px 1px #0063BE;
+}
+section.team-member .nav li a:hover {
+  -webkit-box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #aaa;
+}
+section.team-member .nav .member-link {
+  position: relative;
+}
+section.team-member .nav .member-link .name {
+  position: absolute;
+  right: 0;
+  color: #fff;
+  bottom: 26px;
+  width: 75px;
+  text-align: center;
+}
+section.team-member .member-detail .title {
+  color: #FF9900;
+  margin: 36px 0;
+  font-size: 16px;
+}
