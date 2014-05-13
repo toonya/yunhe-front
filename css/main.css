@@ -284,6 +284,12 @@ section.service-plan .btn-buy {
   line-height: 24px;
   padding: 12px 30px;
 }
+section.service-plan #planA li {
+  font-size: 16px;
+}
+section.service-plan #planB li {
+  font-size: 16px;
+}
 section.service-plan .price-plan-item {
   font-size: 18px;
 }
