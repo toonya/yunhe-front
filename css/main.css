@@ -51,7 +51,6 @@ span.outstanding {
 }
 .btn-blue {
   background: #E7EFF3;
-  color: #0069bb;
   border: 1px solid #0091d0;
 }
 .btn-blue:hover {
@@ -487,4 +486,7 @@ section.regist h3 {
 }
 [for="phoneValidation"] + div div {
   padding-right: 0;
+}
+[for="phoneValidation"] + div a {
+  color: inherit;
 }
