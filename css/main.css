@@ -328,8 +328,8 @@ section.team-member .nav li a {
 }
 section.team-member .nav li.active a,
 section.team-member .nav li.active a:hover {
-  -webkit-box-shadow: 0 0 5px 1px #0063BE;
-  box-shadow: 0 0 5px 1px #0063BE;
+  -webkit-box-shadow: 0 0 10px 1px #9BA2DA;
+  box-shadow: 0 0 10px 1px #9BA2DA;
 }
 section.team-member .nav li a:hover {
   -webkit-box-shadow: 0 0 10px #aaa;
