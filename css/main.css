@@ -1,13 +1,26 @@
 .well blockquote {
   border: none;
+  margin: 0;
+}
+.well blockquote span.quote {
+  font-family: 'Simsum', serif;
+  font-size: 30px;
+  line-height: 20px;
+}
+.well blockquote p {
+  font-size: 14px;
 }
 .well blockquote footer {
   text-align: right;
   padding-right: 60px;
+  padding-bottom: 0;
+  color: inherit;
 }
 .light-blue {
-  background: #effbff;
-  border-color: #cdd9dd;
+  background: #CDE9F4;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 .center-block {
   display: block;
@@ -21,6 +34,22 @@ header .logo {
   width: 134px;
   height: 44px;
   margin-top: 9px;
+}
+header .user-action a {
+  display: inline-block;
+  margin-right: 24px;
+}
+.carousel-caption {
+  left: 10.8%;
+  right: auto;
+  text-align: left;
+  bottom: 10.8%;
+}
+.carousel-caption a {
+  color: #fff;
+}
+.carousel-caption a:hover {
+  text-decoration: none;
 }
 nav {
   background: #0091d0;
@@ -100,7 +129,7 @@ section.why-choose-us .container > .row {
   margin: 0;
 }
 .service-contrast {
-  margin: 48px 0;
+  margin: 48px 0 72px;
 }
 .service-contrast .item {
   background: #FAFAFA;
