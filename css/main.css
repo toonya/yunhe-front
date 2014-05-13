@@ -26,6 +26,39 @@
   display: block;
   margin: 0 auto;
 }
+.nav-tabs.no-border {
+  border: none;
+}
+.nav-tabs.no-border li,
+.nav-tabs.no-border a,
+.nav-tabs.no-border > li.active > a {
+  border: none;
+}
+.white-block {
+  height: 24px;
+  display: block;
+  width: 100%;
+}
+span.outstanding {
+  font-size: 36px;
+}
+.text-green {
+  color: #86be24;
+}
+.btn-green {
+  background: #86be24;
+  color: #fff;
+}
+.btn-buy {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 18px 45px;
+}
+.btn-buy.btn-big {
+  font-size: 30px;
+  line-height: 30px;
+  padding: 18px 45px;
+}
 header {
   line-height: 62px;
   height: 62px;
@@ -81,6 +114,28 @@ ul.main-nav li a:hover {
 }
 .primary {
   padding-top: 72px;
+}
+.primary .content {
+  background: #fff;
+  min-height: 600px;
+  -webkit-box-shadow: 0 0 3px #aaa;
+  box-shadow: 0 0 3px #aaa;
+  border-radius: 3px;
+  padding-bottom: 48px;
+}
+.primary .content section .section-inner {
+  padding: 29px 38px;
+}
+.primary.gray {
+  background: #F7F7F7;
+  padding-top: 31px;
+}
+.primary.gray footer .share {
+  border: none;
+  height: 1px;
+}
+.primary.gray footer ul.footer-share-list {
+  background: none;
 }
 section {
   padding: 24px 0;
@@ -195,4 +250,58 @@ footer ul.footer-share-list {
 footer ul.footer-share-list li {
   display: inline-block;
   padding: 10px;
+}
+section.service-plan {
+  position: relative;
+  color: #565656;
+}
+section.service-plan h1 {
+  color: #363636;
+}
+section.service-plan .nav-pills {
+  position: absolute;
+  z-index: 100;
+}
+section.service-plan .btn-buy {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 12px 30px;
+}
+section.service-plan .price-plan-item {
+  font-size: 18px;
+}
+section.service-plan .price-plan-item span:nth-child(1) {
+  width: 150px;
+  text-align: right;
+  display: inline-block;
+}
+section.service-plan .price-plan-item small {
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 28px;
+}
+section.service-plan .price-plan-item.single span:nth-child(1) {
+  width: auto;
+}
+section.other-service-plan .header {
+  position: relative;
+  padding-bottom: 24px;
+}
+section.other-service-plan .other-service-label {
+  background: url(../img/service-assets/service03.png) no-repeat;
+  display: inline-block;
+  color: #fff;
+  width: 219px;
+  height: 58px;
+  font-size: 24px;
+  line-height: 58px;
+  text-align: center;
+  position: relative;
+  margin-left: -15px;
+}
+section.other-service-plan ul.nav-pills {
+  top: 12px;
+  position: absolute;
+  left: 25%;
+  top: 8px;
 }

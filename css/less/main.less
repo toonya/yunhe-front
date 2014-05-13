@@ -52,6 +52,43 @@
 	margin: 0 auto;
 }
 
+.nav-tabs.no-border {
+	border: none;
+
+	li, a, &>li.active>a {
+		border: none;
+	}
+}
+.white-block {
+	height: 24px;
+	display: block;
+	width: 100%;
+}
+
+span.outstanding {
+	font-size: 36px;
+}
+
+.text-green {
+	color: #86be24;
+
+}
+
+.btn-green {
+	background: #86be24;
+	color: #fff;
+}
+
+.btn-buy {
+	font-size: 24px;
+	line-height: 24px;
+	padding: 18px 45px;
+}
+.btn-buy.btn-big {
+	font-size: 30px;
+	line-height: 30px;
+	padding: 18px 45px;
+}
 // ----------------------------------------
 // ! header
 // ----------------------------------------
@@ -135,6 +172,38 @@ ul.main-nav {
 
 .primary {
 	padding-top: 72px;
+
+	.content {
+		background: #fff;
+		min-height: 600px;
+		box-shadow: 0 0 3px #aaa;
+		border-radius: 3px;
+		padding-bottom: 48px;
+
+		section {
+			.section-inner {
+				padding: 29px 38px;
+			}
+		}
+
+
+	}
+}
+
+.primary.gray {
+	background: #F7F7F7;
+	padding-top: 31px;
+
+	footer {
+		.share {
+			border: none;
+			height: 1px;
+		}
+
+		ul.footer-share-list {
+			background: none;
+		}
+	}
 }
 
 section {
@@ -268,4 +337,76 @@ footer {
 	}
 
 	padding-bottom: 36px;
+}
+
+// ----------------------------------------
+// ! page of service
+// ----------------------------------------
+
+section.service-plan {
+	position: relative;
+	color: #565656;
+
+	h1 {
+		color: #363636;
+	}
+
+	.nav-pills {
+		position: absolute;
+		z-index: 100;
+	}
+
+	.btn-buy {
+		font-size: 24px;
+		line-height: 24px;
+		padding: 12px 30px;
+	}
+
+	.price-plan-item {
+		font-size: 18px;
+
+		span:nth-child(1) {
+			width: 150px;
+			text-align: right;
+			display: inline-block;
+		}
+
+		small {
+			font-size: 12px;
+			display: inline-block;
+			margin-left: 28px;
+		}
+
+		&.single {
+			span:nth-child(1) {
+				width: auto;
+			}
+		}
+	}
+}
+
+section.other-service-plan {
+	.header {
+		position: relative;
+		padding-bottom: 24px;
+	}
+	.other-service-label {
+		background: url(../img/service-assets/service03.png) no-repeat;
+		display: inline-block;
+		color: #fff;
+		width: 219px;
+		height: 58px;
+		font-size: 24px;
+		line-height: 58px;
+		text-align: center;
+		position: relative;
+		margin-left: -15px;
+	}
+
+	ul.nav-pills {
+		top: 12px;
+		position: absolute;
+		left: 25%;
+		top: 8px;
+	}
 }
