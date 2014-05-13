@@ -49,6 +49,14 @@ span.outstanding {
   background: #86be24;
   color: #fff;
 }
+.btn-blue {
+  background: #E7EFF3;
+  color: #0069bb;
+  border: 1px solid #0091d0;
+}
+.btn-blue:hover {
+  background: #fff;
+}
 .btn-buy {
   font-size: 24px;
   line-height: 24px;
@@ -62,6 +70,9 @@ span.outstanding {
 a,
 img {
   outline: none !important;
+}
+:invalid {
+  border-color: red;
 }
 header {
   line-height: 62px;
@@ -456,4 +467,24 @@ section.faq-content a:hover,
 section.faq-content .active a {
   text-decoration: none;
   color: #333;
+}
+section.regist h1 {
+  font-family: "Microsoft YaHei Bold", "Microsoft YaHei", Arial, helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+section.regist h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+  margin: 0 0 18px;
+}
+[for="validation"] + div div {
+  padding-right: 0;
+}
+[for="validation"] + div :last-child {
+  line-height: 34px;
+}
+[for="phoneValidation"] + div div {
+  padding-right: 0;
 }

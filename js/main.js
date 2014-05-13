@@ -44,11 +44,12 @@
 	.on('refresh', function(){
 
 		var keywords = $(this).val(),
-		    $items   = $('.faq-content .collapse');
+		    $items   = $('.faq-content .collapse'),
+		    keywords_to_reg = new RegExp(keywords,'i');
 
 		if( keywords == "" ) {
 			$items.each(function(i,e){
-				$(this).removeClass('in');
+				$(this).collapse('hide');
 			})
 			return;
 		}
@@ -56,11 +57,11 @@
 		// loop items and match them with the keywords
 		$items.each(function(i,e){
 
-			if($(this).text().toLowerCase().match(keywords.toLowerCase())) {
-				$(this).addClass('in');
+			if($(this).text().match(keywords_to_reg)) {
+				$(this).collapse('show');
 			}
 			else {
-				$(this).removeClass('in');
+				$(this).collapse('hide')
 			}
 		})
 	})
