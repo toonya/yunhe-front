@@ -59,6 +59,10 @@ span.outstanding {
   line-height: 30px;
   padding: 18px 45px;
 }
+a,
+img {
+  outline: none !important;
+}
 header {
   line-height: 62px;
   height: 62px;
@@ -350,4 +354,106 @@ section.team-member .member-detail .title {
   color: #FF9900;
   margin: 36px 0;
   font-size: 16px;
+}
+section.case h1 {
+  font-family: "Microsoft YaHei Bold", "Microsoft YaHei", Arial, helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+section.case h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+  margin: 0 0 18px;
+}
+section.case-item .nav {
+  text-align: center;
+}
+section.case-item .nav li {
+  float: left;
+  width: 25%;
+}
+section.case-item .nav li a {
+  padding: 0;
+  margin: 8px;
+  display: table;
+  height: 170px;
+  width: 94%;
+  margin: 3%;
+  border: #aaa 1px solid;
+  background: #F6F4F8;
+}
+section.case-item .nav li a .case-link {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+section.case-item .nav li.active a,
+section.case-item .nav li.active a:hover {
+  -webkit-box-shadow: 0 0 10px 1px #9BA2DA;
+  box-shadow: 0 0 10px 1px #9BA2DA;
+}
+section.case-item .nav li a:hover {
+  -webkit-box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #aaa;
+}
+section.case-item .nav .case-link {
+  position: relative;
+}
+section.case-item .nav .case-link .name {
+  position: absolute;
+  right: 0;
+  color: #fff;
+  bottom: 26px;
+  width: 75px;
+  text-align: center;
+}
+section.case-item .case-detail .title {
+  color: #FF9900;
+  margin: 36px 0;
+  font-size: 16px;
+}
+.comment {
+  padding-top: 36px;
+}
+.comment .popover {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: block;
+  position: relative;
+}
+.comment .popover.bottom > .arrow {
+  left: 25%;
+}
+section.faq-title h1 {
+  font-size: 28px;
+}
+section.faq-title p {
+  color: #999999;
+  margin: 16px 6px 0;
+}
+section.faq-title .form-group {
+  margin: 0;
+}
+section.faq-title .form-group .row > :first-child {
+  padding-right: 0;
+}
+section.faq-content .panel {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+section.faq-content .panel-heading {
+  background: none;
+}
+section.faq-content .panel-heading a {
+  color: #888;
+}
+section.faq-content .panel-body {
+  background: #fafafa;
+}
+section.faq-content a:hover,
+section.faq-content .active a {
+  text-decoration: none;
+  color: #333;
 }
