@@ -192,10 +192,10 @@ section.why-choose-us .container > .row {
   height: 15px;
 }
 .how-to-buy-list li.list-decoration .arrow-down {
-  background: url(../img/home-assets/list-arrow-down.png) no-repeat;
+  background: url(../images/home-assets/list-arrow-down.png) no-repeat;
 }
 .how-to-buy-list li.list-decoration .arrow-up {
-  background: url(../img/home-assets/list-arrow-up.png) no-repeat;
+  background: url(../images/home-assets/list-arrow-up.png) no-repeat;
 }
 .how-to-buy-list li:last-child {
   margin: 0;
@@ -311,7 +311,7 @@ section.other-service-plan .header {
   padding-bottom: 24px;
 }
 section.other-service-plan .other-service-label {
-  background: url(../img/service-assets/service03.png) no-repeat;
+  background: url(../images/service-assets/service03.png) no-repeat;
   display: inline-block;
   color: #fff;
   width: 219px;
